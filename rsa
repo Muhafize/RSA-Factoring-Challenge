@@ -81,9 +81,9 @@ if __name__ == '__main__':
 FACTORS
 
 #!/usr/bin/python3
-Import time
-import math
 import sys
+import random
+import time
 
 def pollard_rho(n):
     if n % 2 == 0:
